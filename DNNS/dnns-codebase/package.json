@@ -1,0 +1,14 @@
+{
+  "name": "lithosphere-dnns",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @litho/dnns-sdk && npm run build -w @litho/dnns-api",
+    "dev:api": "npm run dev -w @litho/dnns-api",
+    "build:sdk": "npm run build -w @litho/dnns-sdk"
+  }
+}
