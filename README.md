@@ -13,6 +13,6 @@ This documentation set is structured for a GitHub repository and can be rendered
 ## Makalu target
 
 - Network: Lithosphere Makalu Testnet
-- EVM Chain ID: `777777`
+- EVM Chain ID: `700777`
 - Cosmos Chain ID: `lithosphere_777777-1`
 - RPC: `https://rpc.litho.ai`
