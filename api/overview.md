@@ -1,6 +1,12 @@
 # DNNS API
 
-The DNNS API is a thin service layer above Makalu EVM contracts. It offers aggregated reads and a stable JSON interface for apps, wallets, explorers, and agent runtimes.
+This page describes a reference API design. It is not the authoritative
+deployed explorer interface. Explorer integrations resolve directly against
+the Kamet DNNS v0 registry on EVM chain ID `900523`; see the
+[repository README](../README.md) for the deployed addresses and rules.
+
+The reference API offers aggregated reads and a stable JSON interface for
+apps, wallets, explorers, and agent runtimes.
 
 ## Base URL
 
