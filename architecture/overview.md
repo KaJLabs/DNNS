@@ -3,6 +3,10 @@
 Author: J. King Kasr  
 Maintained by: KaJ Labs
 
+> This page describes a forward-looking reference architecture, not the
+> deployed DNNS v0 contract surface. For the authoritative explorer network,
+> addresses, and resolution rules, see the [repository README](../README.md).
+
 ## Goals
 
 DNNS provides identity, naming, resolution, agent discovery, and reputation infrastructure for Lithosphere Web4 workloads.
@@ -13,7 +17,7 @@ DNNS provides identity, naming, resolution, agent discovery, and reputation infr
 graph TD
     Client[Wallet / App / Agent Runtime] --> SDK[DNNS SDK]
     SDK --> API[DNNS API Service]
-    SDK --> EVM[Makalu EVM Contracts]
+    SDK --> EVM[Reference EVM Contracts]
     API --> EVM
     EVM --> Registry[DNNSRegistry]
     EVM --> Resolver[DNNSResolver]
