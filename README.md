@@ -50,8 +50,8 @@ authoritative by itself: clients may display it only after the name resolves
 forward to the queried checksum address. The nominated stable acceptance
 fixture is:
 
-- Name: `kamet.litho`
-- Address: `0xE9267bDf7084815B0754545049AE45FE744Aefa8`
+- Name: `kamet-validator.litho`
+- Address: `0xfF74E44E161B1d6e8ffCC4259749768F67dE2cB8`
 
 Explorer clients do not persist positive or negative DNNS resolution results.
 This avoids stale results after an on-chain record change.
